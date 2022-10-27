@@ -172,7 +172,7 @@ class App {
     //add new obj to workout arr
     this.#workouts.push(workout);
     //render workout on map as a marker
-    this.renderWorkoutMarker(workout);
+    this._renderWorkoutMarker(workout);
     //render workout on list
 
     this._renderWorkout(workout);
